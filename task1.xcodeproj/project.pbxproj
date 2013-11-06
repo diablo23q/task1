@@ -19,6 +19,8 @@
 		C38689E3182ACAC000E74B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689CB182ACABF00E74B26 /* UIKit.framework */; };
 		C38689EB182ACAC000E74B26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38689E9182ACAC000E74B26 /* InfoPlist.strings */; };
 		C38689ED182ACAC000E74B26 /* task1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38689EC182ACAC000E74B26 /* task1Tests.m */; };
+		C38689F9182ACAFC00E74B26 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38689F7182ACAFC00E74B26 /* MKViewController.m */; };
+		C38689FA182ACAFC00E74B26 /* MKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38689F8182ACAFC00E74B26 /* MKViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C38689E8182ACAC000E74B26 /* task1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "task1Tests-Info.plist"; sourceTree = "<group>"; };
 		C38689EA182ACAC000E74B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C38689EC182ACAC000E74B26 /* task1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = task1Tests.m; sourceTree = "<group>"; };
+		C38689F6182ACAFC00E74B26 /* MKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKViewController.h; path = ../MKViewController.h; sourceTree = "<group>"; };
+		C38689F7182ACAFC00E74B26 /* MKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKViewController.m; path = ../MKViewController.m; sourceTree = "<group>"; };
+		C38689F8182ACAFC00E74B26 /* MKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MKViewController.xib; path = ../MKViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		C38689CD182ACABF00E74B26 /* task1 */ = {
 			isa = PBXGroup;
 			children = (
+				C38689F6182ACAFC00E74B26 /* MKViewController.h */,
+				C38689F7182ACAFC00E74B26 /* MKViewController.m */,
+				C38689F8182ACAFC00E74B26 /* MKViewController.xib */,
 				C38689D6182ACABF00E74B26 /* MKAppDelegate.h */,
 				C38689D7182ACABF00E74B26 /* MKAppDelegate.m */,
 				C38689D9182ACABF00E74B26 /* Images.xcassets */,
@@ -222,6 +230,7 @@
 			files = (
 				C38689D2182ACABF00E74B26 /* InfoPlist.strings in Resources */,
 				C38689DA182ACABF00E74B26 /* Images.xcassets in Resources */,
+				C38689FA182ACAFC00E74B26 /* MKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38689D8182ACABF00E74B26 /* MKAppDelegate.m in Sources */,
+				C38689F9182ACAFC00E74B26 /* MKViewController.m in Sources */,
 				C38689D4182ACABF00E74B26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
