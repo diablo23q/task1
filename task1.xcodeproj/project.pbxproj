@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3831F201838FDAB004B10E0 /* MKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3831F1E1838FDAB004B10E0 /* MKTableViewController.m */; };
+		C3831F211838FDAB004B10E0 /* MKTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3831F1F1838FDAB004B10E0 /* MKTableViewController.xib */; };
+		C3831F25183910D8004B10E0 /* MKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3831F23183910D8004B10E0 /* MKTextViewController.m */; };
+		C3831F26183910D8004B10E0 /* MKTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3831F24183910D8004B10E0 /* MKTextViewController.xib */; };
 		C38689C8182ACABF00E74B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689C7182ACABF00E74B26 /* Foundation.framework */; };
 		C38689CA182ACABF00E74B26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689C9182ACABF00E74B26 /* CoreGraphics.framework */; };
 		C38689CC182ACABF00E74B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689CB182ACABF00E74B26 /* UIKit.framework */; };
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3831F1D1838FDAB004B10E0 /* MKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTableViewController.h; sourceTree = SOURCE_ROOT; };
+		C3831F1E1838FDAB004B10E0 /* MKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTableViewController.m; sourceTree = SOURCE_ROOT; };
+		C3831F1F1838FDAB004B10E0 /* MKTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTableViewController.xib; sourceTree = SOURCE_ROOT; };
+		C3831F22183910D8004B10E0 /* MKTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTextViewController.h; sourceTree = SOURCE_ROOT; };
+		C3831F23183910D8004B10E0 /* MKTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTextViewController.m; sourceTree = SOURCE_ROOT; };
+		C3831F24183910D8004B10E0 /* MKTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTextViewController.xib; sourceTree = SOURCE_ROOT; };
 		C38689C4182ACABF00E74B26 /* task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38689C7182ACABF00E74B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C38689C9182ACABF00E74B26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,8 +127,14 @@
 				C38689F8182ACAFC00E74B26 /* MKViewController.xib */,
 				C38689D6182ACABF00E74B26 /* MKAppDelegate.h */,
 				C38689D7182ACABF00E74B26 /* MKAppDelegate.m */,
+				C3831F22183910D8004B10E0 /* MKTextViewController.h */,
+				C3831F23183910D8004B10E0 /* MKTextViewController.m */,
+				C3831F24183910D8004B10E0 /* MKTextViewController.xib */,
 				C38689D9182ACABF00E74B26 /* Images.xcassets */,
 				C38689CE182ACABF00E74B26 /* Supporting Files */,
+				C3831F1D1838FDAB004B10E0 /* MKTableViewController.h */,
+				C3831F1E1838FDAB004B10E0 /* MKTableViewController.m */,
+				C3831F1F1838FDAB004B10E0 /* MKTableViewController.xib */,
 			);
 			path = task1;
 			sourceTree = "<group>";
@@ -229,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38689D2182ACABF00E74B26 /* InfoPlist.strings in Resources */,
+				C3831F26183910D8004B10E0 /* MKTextViewController.xib in Resources */,
+				C3831F211838FDAB004B10E0 /* MKTableViewController.xib in Resources */,
 				C38689DA182ACABF00E74B26 /* Images.xcassets in Resources */,
 				C38689FA182ACAFC00E74B26 /* MKViewController.xib in Resources */,
 			);
@@ -250,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38689D8182ACABF00E74B26 /* MKAppDelegate.m in Sources */,
+				C3831F201838FDAB004B10E0 /* MKTableViewController.m in Sources */,
 				C38689F9182ACAFC00E74B26 /* MKViewController.m in Sources */,
 				C38689D4182ACABF00E74B26 /* main.m in Sources */,
+				C3831F25183910D8004B10E0 /* MKTextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +472,7 @@
 				C38689F2182ACAC000E74B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C38689F3182ACAC000E74B26 /* Build configuration list for PBXNativeTarget "task1Tests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +481,7 @@
 				C38689F5182ACAC000E74B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "MKViewController.h"
+#import "MKTableViewController.h"
 
 @interface MKViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *tapCountLabel;
@@ -20,6 +21,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.navigationItem.title = @"Main screen";
         self.tapCount = 0;
     }
     return self;
@@ -40,6 +42,11 @@
 - (IBAction)incTapCount:(id)sender {
     self.tapCount++;
     self.tapCountLabel.text = [NSString stringWithFormat:@"Tap count: %d", self.tapCount];
+}
+
+- (IBAction)gotoTable:(id)sender {
+    UIViewController *sec=[[MKTableViewController alloc] initWithNibName:@"MKTableViewController" bundle:nil];
+    [self.navigationController pushViewController:sec animated:YES];
 }
 
 @end

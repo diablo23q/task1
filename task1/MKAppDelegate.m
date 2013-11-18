@@ -17,7 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     MKViewController *mainController = [[MKViewController alloc] initWithNibName:@"MKViewController" bundle:nil];
-    self.window.rootViewController = mainController;
+    self.navController = [[UINavigationController alloc] initWithRootViewController:mainController];
+    self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
