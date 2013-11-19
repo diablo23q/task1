@@ -154,6 +154,8 @@
     // Do any additional setup after loading the view from its nib.
     
     self.items = [[NSMutableArray alloc] initWithObjects:@"One",@"Two Two", @"Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many Many", nil];
+    //self.tableView.contentMode = UIViewContentModeRight;
+    self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 }
 
 - (void)didReceiveMemoryWarning
