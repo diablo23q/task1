@@ -6,10 +6,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MKButtonsViewController">
             <connections>
+                <outlet property="pbutton1" destination="gF8-C8-5zJ" id="3jz-fU-0s3"/>
+                <outlet property="pbutton2" destination="eTb-TC-bdm" id="QOe-97-efh"/>
                 <outlet property="pbutton3" destination="MX0-Gx-2bb" id="uB5-Ed-GTf"/>
                 <outlet property="pbutton4" destination="9nf-Sn-iHs" id="Ui2-iY-dZ5"/>
+                <outlet property="pbutton5" destination="HvB-aS-wvz" id="7w5-XY-Shy"/>
                 <outlet property="pbutton6" destination="Ukf-oF-BXZ" id="gSw-7K-ckh"/>
                 <outlet property="pbutton7" destination="IQB-ga-7Hr" id="XdH-Wy-jtQ"/>
+                <outlet property="pbutton9" destination="Xpc-I6-fHW" id="65h-rZ-JIi"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>

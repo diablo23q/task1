@@ -9,10 +9,14 @@
 #import "MKButtonsViewController.h"
 
 @interface MKButtonsViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *pbutton1;
+@property (weak, nonatomic) IBOutlet UIButton *pbutton2;
 @property (weak, nonatomic) IBOutlet UIButton *pbutton3;
 @property (weak, nonatomic) IBOutlet UIButton *pbutton4;
+@property (weak, nonatomic) IBOutlet UIButton *pbutton5;
 @property (weak, nonatomic) IBOutlet UIButton *pbutton6;
 @property (weak, nonatomic) IBOutlet UIButton *pbutton7;
+@property (weak, nonatomic) IBOutlet UIButton *pbutton9;
 @property (strong, nonatomic) UIButton *pbutton10;
 @property (strong, nonatomic) UIButton *pbutton11;
 @property (nonatomic) BOOL showing6;
@@ -40,6 +44,7 @@
     self.pbutton11 = [self.pbutton11 init];
     self.pbutton11 = self.pbutton4;
     self.pbutton10 = self.pbutton3;
+    self.pbutton10.center = self.pbutton6.center;
 }
 
 - (void)didReceiveMemoryWarning
@@ -79,11 +84,23 @@
 }
 
 - (IBAction)button8:(UIButton *)sender {
+    [self button1:self.pbutton1];
+    [self button2:self.pbutton2];
     
+    CGPoint tcenter3 = self.pbutton3.center;
+    CGPoint tcenter4 = self.pbutton4.center;
+    
+    [UIView animateWithDuration:1.0 animations:^{self.pbutton3.center = tcenter4;} completion:^(BOOL finished){[UIView animateWithDuration:1.0 animations:^{self.pbutton3.center = tcenter3;}];}];
+    
+    [UIView animateWithDuration:1.0 animations:^{self.pbutton4.center = tcenter3;} completion:^(BOOL finished){[UIView animateWithDuration:1.0 animations:^{self.pbutton4.center = tcenter4;}];}];
+    
+    [self button5:self.pbutton5];
+    [self button9:self.pbutton9];
 }
 
 - (IBAction)button9:(UIButton *)sender {
-    
+    UIColor *tcolor = sender.backgroundColor;
+    [UIView animateWithDuration:1.0 animations:^{sender.backgroundColor = [UIColor colorWithRed:0.2 green:0.5 blue:0.2 alpha:1.0];} completion:^(BOOL finished){[UIView animateWithDuration:1.0 animations:^{sender.backgroundColor = tcolor;}];}];
 }
 
 
