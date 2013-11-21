@@ -23,7 +23,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbg-QJ-yib">
-                    <rect key="frame" x="133" y="269" width="54" height="30"/>
+                    <rect key="frame" x="133" y="49" width="54" height="30"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <state key="normal" title="Tap me!">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -41,15 +41,27 @@
                         <action selector="gotoTable:" destination="-1" eventType="touchUpInside" id="ceq-kl-VDt"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGJ-dt-dTF">
+                    <rect key="frame" x="126" y="269" width="69" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Animation">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="gotoAnimation:" destination="-1" eventType="touchUpInside" id="MbP-hd-7E1"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="hbg-QJ-yib" secondAttribute="centerY" id="9LX-6s-6ph"/>
+                <constraint firstAttribute="centerX" secondItem="fGJ-dt-dTF" secondAttribute="centerX" id="2Nm-TL-pJB"/>
+                <constraint firstItem="hbg-QJ-yib" firstAttribute="top" secondItem="JCg-10-b8j" secondAttribute="bottom" constant="8" symbolic="YES" id="J99-vD-phv"/>
                 <constraint firstItem="JCg-10-b8j" firstAttribute="top" secondItem="1" secondAttribute="top" constant="20" symbolic="YES" id="LQl-Ni-pYf"/>
                 <constraint firstAttribute="centerX" secondItem="JCg-10-b8j" secondAttribute="centerX" id="Mh9-Vf-rEX"/>
+                <constraint firstAttribute="centerY" secondItem="fGJ-dt-dTF" secondAttribute="centerY" id="Vyo-pI-PCQ"/>
                 <constraint firstAttribute="bottom" secondItem="pt3-bQ-e2X" secondAttribute="bottom" constant="20" symbolic="YES" id="fgX-Zw-fCb"/>
                 <constraint firstItem="hbg-QJ-yib" firstAttribute="centerX" secondItem="JCg-10-b8j" secondAttribute="centerX" id="kBF-aj-TLg"/>
-                <constraint firstItem="hbg-QJ-yib" firstAttribute="centerX" secondItem="pt3-bQ-e2X" secondAttribute="centerX" constant="-0.5" id="sMK-q6-OP6"/>
+                <constraint firstItem="hbg-QJ-yib" firstAttribute="centerX" secondItem="pt3-bQ-e2X" secondAttribute="centerX" id="sMK-q6-OP6"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

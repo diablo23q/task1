@@ -11,6 +11,8 @@
 		C3831F211838FDAB004B10E0 /* MKTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3831F1F1838FDAB004B10E0 /* MKTableViewController.xib */; };
 		C3831F25183910D8004B10E0 /* MKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3831F23183910D8004B10E0 /* MKTextViewController.m */; };
 		C3831F26183910D8004B10E0 /* MKTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3831F24183910D8004B10E0 /* MKTextViewController.xib */; };
+		C3831F31183AE936004B10E0 /* MKButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3831F2F183AE936004B10E0 /* MKButtonsViewController.m */; };
+		C3831F32183AE936004B10E0 /* MKButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3831F30183AE936004B10E0 /* MKButtonsViewController.xib */; };
 		C38689C8182ACABF00E74B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689C7182ACABF00E74B26 /* Foundation.framework */; };
 		C38689CA182ACABF00E74B26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689C9182ACABF00E74B26 /* CoreGraphics.framework */; };
 		C38689CC182ACABF00E74B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689CB182ACABF00E74B26 /* UIKit.framework */; };
@@ -44,6 +46,9 @@
 		C3831F22183910D8004B10E0 /* MKTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTextViewController.h; sourceTree = SOURCE_ROOT; };
 		C3831F23183910D8004B10E0 /* MKTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTextViewController.m; sourceTree = SOURCE_ROOT; };
 		C3831F24183910D8004B10E0 /* MKTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTextViewController.xib; sourceTree = SOURCE_ROOT; };
+		C3831F2E183AE935004B10E0 /* MKButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKButtonsViewController.h; sourceTree = SOURCE_ROOT; };
+		C3831F2F183AE936004B10E0 /* MKButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKButtonsViewController.m; sourceTree = SOURCE_ROOT; };
+		C3831F30183AE936004B10E0 /* MKButtonsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKButtonsViewController.xib; sourceTree = SOURCE_ROOT; };
 		C38689C4182ACABF00E74B26 /* task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38689C7182ACABF00E74B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C38689C9182ACABF00E74B26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,6 +134,9 @@
 				C38689D7182ACABF00E74B26 /* MKAppDelegate.m */,
 				C3831F22183910D8004B10E0 /* MKTextViewController.h */,
 				C3831F23183910D8004B10E0 /* MKTextViewController.m */,
+				C3831F2E183AE935004B10E0 /* MKButtonsViewController.h */,
+				C3831F2F183AE936004B10E0 /* MKButtonsViewController.m */,
+				C3831F30183AE936004B10E0 /* MKButtonsViewController.xib */,
 				C3831F24183910D8004B10E0 /* MKTextViewController.xib */,
 				C38689D9182ACABF00E74B26 /* Images.xcassets */,
 				C38689CE182ACABF00E74B26 /* Supporting Files */,
@@ -248,6 +256,7 @@
 				C3831F26183910D8004B10E0 /* MKTextViewController.xib in Resources */,
 				C3831F211838FDAB004B10E0 /* MKTableViewController.xib in Resources */,
 				C38689DA182ACABF00E74B26 /* Images.xcassets in Resources */,
+				C3831F32183AE936004B10E0 /* MKButtonsViewController.xib in Resources */,
 				C38689FA182ACAFC00E74B26 /* MKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +278,7 @@
 			files = (
 				C38689D8182ACABF00E74B26 /* MKAppDelegate.m in Sources */,
 				C3831F201838FDAB004B10E0 /* MKTableViewController.m in Sources */,
+				C3831F31183AE936004B10E0 /* MKButtonsViewController.m in Sources */,
 				C38689F9182ACAFC00E74B26 /* MKViewController.m in Sources */,
 				C38689D4182ACABF00E74B26 /* main.m in Sources */,
 				C3831F25183910D8004B10E0 /* MKTextViewController.m in Sources */,

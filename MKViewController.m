@@ -8,6 +8,7 @@
 
 #import "MKViewController.h"
 #import "MKTableViewController.h"
+#import "MKButtonsViewController.h"
 
 @interface MKViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *tapCountLabel;
@@ -47,6 +48,11 @@
 
 - (IBAction)gotoTable:(id)sender {
     UIViewController *sec=[[MKTableViewController alloc] initWithNibName:@"MKTableViewController" bundle:nil];
+    [self.navigationController pushViewController:sec animated:YES];
+}
+
+- (IBAction)gotoAnimation:(id)sender {
+    UIViewController *sec=[[MKButtonsViewController alloc] initWithNibName:@"MKButtonsViewController" bundle:nil];
     [self.navigationController pushViewController:sec animated:YES];
 }
 
